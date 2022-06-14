@@ -1,0 +1,40 @@
+#span_one{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    display: block;
+    background-color: #ff3102;
+    border-radius: 20px;
+    animation: span_nimations_span_one 3s infinite 0.5s alternate;
+    margin-top: 20px;
+    z-index: 0;
+    box-shadow: 10px 10px 10px grey;
+}
+#span_tow{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    display: block;
+    background-color: #5005F2;
+    border-radius: 40px;
+    animation: span_nimations_span_tow 3s infinite linear;
+    margin-top: 0;
+    z-index: 0;
+    box-shadow: 10px 10px 10px grey;
+    transform: rotate(90deg);
+}
+
+@keyframes span_nimations_span_one {
+    to{
+       transform: translate(-100vh);
+    }
+}
+@keyframes span_nimations_span_tow {
+    to{
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
