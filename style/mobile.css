@@ -32,9 +32,7 @@
 }
 @media screen and (max-width:400px){
     main .section_one{
-        height: ;
         z-index: 1;
-        overflow: hidden;
     }
     .section_one .description{
         display: flex;
@@ -56,6 +54,13 @@
     }
     .section_one .description_one button{
         font-size: 10px;
+    }
+    .skils_one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        height: 100%;
     }
 }
 @media screen and (max-width:300px){

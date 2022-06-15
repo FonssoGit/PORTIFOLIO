@@ -6,7 +6,7 @@
     display: block;
     background-color: #ff3102;
     border-radius: 20px;
-    animation: span_nimations_span_one 3s infinite 0.5s alternate;
+    animation: span_nimations_span_one 3s infinite 0.5s alternate-reverse;
     margin-top: 20px;
     z-index: 0;
     box-shadow: 10px 10px 10px grey;
@@ -26,6 +26,40 @@
     box-shadow: 10px 10px 10px grey;
     transform: rotate(90deg);
 }
+#span_three{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 50%;
+    left: 15%;
+    margin-right: 10px;
+    display: block;
+    background-color: #F2B705;
+    border-radius: 40px;
+    margin-top: 0;
+    z-index: 0;
+    box-shadow: 10px 10px 10px grey;
+    transform: rotate(90deg);
+    animation: span_nimations_span_three 5s infinite linear;
+    overflow: hidden;
+}
+#span_four{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 80%;
+    display: block;
+    background-color: #F2137B;
+    border-radius: 20px;
+    margin-top: 20px;
+    z-index: 0;
+    box-shadow: 10px 10px 10px grey;
+    animation: span_nimations_span_four 3s infinite alternate;
+}
+
+
+
 
 @keyframes span_nimations_span_one {
     to{
@@ -37,4 +71,14 @@
         transform: translateY(100vh);
         opacity: 0;
     }
+}
+@keyframes span_nimations_span_three {
+    to{
+        margin-top: 90vh;
+    }
+}
+@keyframes span_nimations_span_four {
+    to{
+        transform: translate(-100vh);
+     }
 }
