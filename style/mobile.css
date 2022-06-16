@@ -66,10 +66,14 @@
         align-items: center;
         padding: 0.5rem;
     }
+    
 }
 @media screen and (max-width:300px){
     .description .description_one button{
         padding: 0.3rem 1rem;
         
+    }
+    .section_animation_skils{
+        height: 300px;
     }
 }
