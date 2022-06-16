@@ -97,6 +97,8 @@ main{
 */
 .skils{
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     overflow: auto;
 }
@@ -104,10 +106,6 @@ main{
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
-    height: 100%;
-}
-.skils_content{
-    height: 100%;
 }
 .skils_one h3{
     font-family: 'Poppins', sans-serif;
@@ -183,8 +181,8 @@ main{
     background: linear-gradient(
         to right,
         #EAD41C,
-        #ead51c5b);
-    color: #f1f1f1;
+        yellow);
+    color: #1d1d1d;
     transform: scale(0.9);
     transition: all 300ms ease;
 }
@@ -201,10 +199,16 @@ main{
     color: #1C4863;
 }
 .skils_table_btns button:nth-child(4):hover{
+    color: #1C4863;
+}
+.skils_table_btns button:hover span{
+    color: #D6952E;
+}
+.skils_table_btns button:nth-child(4):hover{
     background: linear-gradient(
         to right,
-        #D6952E,
-        #005C84);
+        #F2F2F2,
+        #F2F2F2);
     transform: scale(0.9);
     transition: all 300ms ease;
 }
@@ -251,7 +255,7 @@ main{
     display: none;
 }
 .skils_content .skils_js{
-    color: #D6952E;
+    color: #EAD41C;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     max-width: 300px;
@@ -260,7 +264,7 @@ main{
     display: none;
 }
 .skils_content .skils_mysql{
-    color: #005C84;
+    color: #D6952E;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     max-width: 300px;
@@ -269,7 +273,10 @@ main{
     display: none;
 }
 .skils_content .skils_mysql h1{
-    color: #EAD41C;
+    color: #1C4863;
+}
+.skils_content .skils_mysql span{
+    color: #D6952E;
 }
 /*
 
@@ -278,6 +285,11 @@ main{
 
 
 */
+.section_cards_skils{
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+}
 
 .section_tow{
     background-color: #1C2026;

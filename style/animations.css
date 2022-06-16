@@ -1,7 +1,6 @@
 #span_one{
     
 }
-
 @keyframes span_nimations_span_one {
     to{
        transform: translateY(100vh);
