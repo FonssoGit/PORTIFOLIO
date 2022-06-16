@@ -1,15 +1,20 @@
 main{
     width: calc(100% - 200px);
+    position: relative;
+}
+.container_section{
+    height: 100vh;
     background-color: #1d1d1d;
-    z-index: 1;
 }
 .section_one{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .description_one{
     height: 100%;
     padding: 0 1rem;
+    z-index: 2;
 }
 .description h1{
     font-family: 'Poppins', sans-serif;
@@ -23,6 +28,7 @@ main{
     font-size: 50px;
     color: #f1f1f1;
     font-family: 'Poppins', sans-serif;
+
 }
 .description_one button{
     padding: 0.6rem 3rem;
@@ -41,6 +47,7 @@ main{
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .description_one button:hover{
     transform: scale(1.1);
@@ -85,14 +92,13 @@ main{
 
 */
 .skils{
+    display: flex;
     height: 100%;
 }
 .skils_one{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     padding: 0.5rem;
-   
 }
 .skils_one h3{
     font-family: 'Poppins', sans-serif;
