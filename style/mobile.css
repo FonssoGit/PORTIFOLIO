@@ -10,7 +10,6 @@
 @media screen and (max-width:600px) {
     body .container main{
         width: 100%;
-        padding: 1rem;
     }
     header{
         left: -100%;
@@ -38,6 +37,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 200px;
     }
     .section_one .description_one{
         display: flex;
@@ -54,13 +54,13 @@
     }
     .section_one .description_one button{
         font-size: 10px;
+        margin-top: 20px;
     }
     .skils_one{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0.5rem;
-        height: 100%;
     }
 }
 @media screen and (max-width:300px){
