@@ -3,14 +3,16 @@ main{
     position: relative;
 }
 .container_section{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-color: #1d1d1d;
 }
 .section_one{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
+
 .description_one{
     height: 100%;
     padding: 0 1rem;
