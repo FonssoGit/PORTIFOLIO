@@ -1,52 +1,23 @@
 #span_one{
-    width: 100px;
-    height: 20px;
-    background-color: #ff3102;
-    position: absolute;
-    z-index: 0;
-    border-radius: 20px;
-    transform: rotate(90deg);
-    animation:  span_nimations_span_one 2s infinite linear;
-}
-#span_tow{
-    
-
-}
-#span_three{
-    
-  
-}
-#span_four{
-    
     
 }
-
-
-
 
 @keyframes span_nimations_span_one {
     to{
        transform: translateY(100vh);
     }
 }
-@keyframes span_nimations_span_tow {
-    to{
-        transform: translateY();
-    }
-}
-@keyframes span_nimations_span_three {
-    to{
-        
-    }
-}
-@keyframes span_nimations_span_four {
-    to{
-        transform: translate();
-     }
-}
-
 @media screen and (max-width:600px) {
-    #span_three{
-        left: 0%;
+    #span_one{
+        width: 100px;
+        height: 20px;
+        background-color: #ff3102;
+        position: absolute;
+        z-index: 0;
+        margin-left: -30px;
+        border-radius: 20px;
+        transform: rotate(90deg);
+        animation:  span_nimations_span_one 2s infinite linear;
     }
+
 }
