@@ -3,6 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+}
+.section_tow-inite-hiden{
+    opacity: 1;
+    transition: all 1s ease;
 }
 .section_form_contato{
     width: 50%;
@@ -13,7 +18,7 @@
 .container_form h1{
     color: #D7D7D9;
     font-family: 'Poppins', sans-serif;
-    margin-left: 35px;
+    margin-left: 25px;
     text-transform: uppercase;
 }
 form{
@@ -101,7 +106,6 @@ form button{
     width: 200px;
     
 }
-
 form button:hover{
     transform: scale(1.1);
     transition: all 300ms ease;

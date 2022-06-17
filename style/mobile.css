@@ -2,16 +2,14 @@
     main .section_tow{
         flex-direction: column;
     }
-    main .section_sobre_mim{
-        width: 100%;
-        height: 300px;
-    }
+    
     main .container_sobre_mim{
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        flex-direction: column;
     }
+    
     main .titulo_principal{
         padding: 3rem;
     }
@@ -55,6 +53,7 @@
         display: flex;
         position: fixed;
         z-index: 3000;
+        cursor: pointer;
     }
     .skils{
         display: flex;
@@ -64,6 +63,22 @@
         display: flex;
         flex-direction: column;
     }
+    .section_one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .cards_redes_sociais{
+        width: 100%;
+        justify-content: center;
+        height: 100px;
+    }
+    .table_icons{
+        justify-content: center;
+    }
+     
 }
 @media screen and (max-width:400px){
     main .section_one{
@@ -117,6 +132,7 @@
         font-size: 17px;
         text-align: justify start;
     }
+    
 }
 @media screen and (max-width:300px){
     .description .description_one button{
