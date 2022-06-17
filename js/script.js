@@ -48,8 +48,4 @@ btn_mysql.addEventListener('click',()=>{
     skils_mysql.style.display = 'block'
 })
 
-let textAre = document.querySelector('textarea')
-textAre.addEventListener('click',()=>{
-  
-})
 

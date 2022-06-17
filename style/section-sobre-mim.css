@@ -1,0 +1,35 @@
+.section_sobre_mim{
+    width: 50%;
+}
+
+.container_sobre_mim{
+    height: 100%;
+}
+.titulo_principal h1{
+    font-family: 'Poppins';
+    color: #FAF2FD;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.titulo_principal h2{
+    font-family: 'Poppins';
+    color: #595959;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+}
+.titulo_principal h2 a{
+    color: #4285F4;
+    font-weight: 200;
+    text-decoration: none;
+}
+.titulo_principal h2 a:hover{
+    color: white;
+}
+.titulo_principal h2 a:active{
+    color: #595959;
+}
+
