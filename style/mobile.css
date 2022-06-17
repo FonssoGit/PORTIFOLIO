@@ -32,6 +32,10 @@
         display: flex;
         flex-direction: column;
     }
+    .section_tow{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media screen and (max-width:400px){
     main .section_one{

@@ -36,7 +36,7 @@
             <span id="btn_menu"></span>
         </div>
         <main>
-            
+            <!---->
             <div class="container_section">
                 <section class="section_one">
                     <div class="description">
@@ -146,9 +146,53 @@
                         </div>
                     </div>
                 </section>
-            </div>
+            </div><!---->
             <section class="section_tow">
-                ola
+                <div class="section_sobre_mim">
+
+                </div>
+                <div class="section_form_contato">
+                    <div class="container_form">
+                        <h1>Contate-mim</h1>
+                        <form action="https://formsubmit.co/afonso.silva.as73@gmail.com" method="POST">
+                            <input type="hidden" name="_next" value="https://http://127.0.0.1:5500/">
+
+                            <div class="label_1">
+                                <label for="name">Seu Nome</label>
+                                <input type="text"
+                                name="name"
+                                placeholder="Nome"
+                                required>
+                            </div>
+
+                            <div class="label_1">
+                                <label for="email">Seu E-mail</label>
+                                <input type="email"
+                                name="email"
+                                placeholder="E-mail"
+                                class="label-email"
+                                required>
+                            </div>
+
+                            <div class="label_1">
+                                <label for="telefone">Seu Numero</label>
+                                <input type="number"
+                                name="telefone"
+                                placeholder="Numero"
+                                required>
+                            </div>
+
+                            <textarea name="mesage" id="mesage" cols="50" maxlength="10000" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                            <div class="tela_carregando">
+                                <div class="caixa-bola">
+                                    <div class="bola"></div>
+                                    <h3>Carregando</h3>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
     </div>

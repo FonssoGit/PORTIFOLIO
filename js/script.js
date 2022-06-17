@@ -3,6 +3,7 @@ const btnMenu = document.querySelector('#btn_menu')
 function toggleMenu(){
     const nav = document.querySelector('header')
     nav.classList.toggle('active')
+
 }
 btnMenu.addEventListener('click', toggleMenu)
 
@@ -46,3 +47,9 @@ btn_mysql.addEventListener('click',()=>{
     skils_js.style.display = 'none'
     skils_mysql.style.display = 'block'
 })
+
+let textAre = document.querySelector('textarea')
+textAre.addEventListener('click',()=>{
+  
+})
+

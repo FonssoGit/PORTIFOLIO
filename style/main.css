@@ -232,7 +232,7 @@ main{
 .skils_content .skils_html{
     color: #D53B1D;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     max-width: 300px;
     font-size: 0.9em;
     margin-left: 20px;
@@ -241,7 +241,7 @@ main{
 .skils_content .skils_css{
     color: #0260A6;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     max-width: 300px;
     font-size: 0.9em;
     margin-left: 20px;
@@ -250,7 +250,7 @@ main{
 .skils_content .skils_js{
     color: #EAD41C;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     max-width: 300px;
     font-size: 0.9em;
     margin-left: 20px;
@@ -259,7 +259,7 @@ main{
 .skils_content .skils_mysql{
     color: #D6952E;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     max-width: 300px;
     font-size: 0.9em;
     margin-left: 20px;
@@ -278,7 +278,3 @@ main{
 
 
 */
-.section_tow{
-    background-color: #1C2026;
-    height: 100vh;
-}
