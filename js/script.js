@@ -1,10 +1,8 @@
 //Click do menu
 const btnMenu = document.querySelector('#btn_menu')
 function toggleMenu(){
-    const menu_icon = document.querySelector('.container')
     const nav = document.querySelector('header')
     nav.classList.toggle('active')
-    menu_icon.classList.toggle('active')
 }
 btnMenu.addEventListener('click', toggleMenu)
 
@@ -50,18 +48,16 @@ btn_mysql.addEventListener('click',()=>{
 })
 
 //const observer = new IntersectionObserver(entries =>{
-//    console.log(entries)
 //    entries[0].target.classList.add('section_tow-inite-hiden')
 
 //    Array.from(entries).forEach(entry =>{
 //        if(entry.intersectionRatio >= 1){
 //            entry.target.classList.add('section_tow-inite-hiden')
 //        }
-//   })
+//  })
 //}, {
-//    threshold:[0, .4, 1]
+//   threshold:[0, .5, 1]
 //})
 //Array.from(document.querySelectorAll('.inite-hiden')).forEach(elemnt =>{
-//    observer.observe(elemnt)
-
+//   observer.observe(elemnt)
 //})

@@ -5,6 +5,9 @@
 .container_sobre_mim{
     height: 100%;
 }
+.titulo_principal{
+    padding: 1.5rem;
+}
 .titulo_principal h1{
     font-family: 'Poppins';
     color: #FAF2FD;
