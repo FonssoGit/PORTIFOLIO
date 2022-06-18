@@ -53,6 +53,10 @@ main{
     cursor: pointer;
     margin-bottom: 20px;
 }
+.description button a{
+    text-decoration: none;
+    color: inherit;
+}
 .description_one button:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
@@ -74,7 +78,7 @@ main{
     width: 20px;
     border-top: 2px solid;
     position: absolute;
-    bottom: 0;
+    bottom:0;
     right: 0;
     animation: spanChild2 1s infinite linear;
 }

@@ -61,3 +61,21 @@ btn_mysql.addEventListener('click',()=>{
 //Array.from(document.querySelectorAll('.inite-hiden')).forEach(elemnt =>{
 //   observer.observe(elemnt)
 //})
+
+const menuItem = document.querySelectorAll('.menu_select a')
+
+menuItem.forEach(item =>{
+    item.addEventListener('click', scrolIdOnclick)
+})
+function scrolIdOnclick(event){
+    event.preventDefault()
+    const elemente= event.target
+    const id = elemente.getAttribute('href')
+    const to = document.querySelector(id).offsetTop
+    console.log(to.offsetTop)
+
+    window.scroll({
+        top:to,
+        behavior:"smooth",
+    })
+}

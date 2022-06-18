@@ -132,7 +132,20 @@
         font-size: 17px;
         text-align: justify start;
     }
-    
+    main .label_1 label{
+        left: 10px;
+        height: 15px;
+        font-size: 14px;
+    }
+    main .label_1 input{
+        height: 35px;
+    }
+    main textarea{
+        height: 100px;
+    }
+    main .table_icons i{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width:300px){
     .description .description_one button{
