@@ -72,7 +72,6 @@ function scrolIdOnclick(event){
     const elemente= event.target
     const id = elemente.getAttribute('href')
     const to = document.querySelector(id).offsetTop
-    console.log(to.offsetTop)
 
     window.scroll({
         top:to,
