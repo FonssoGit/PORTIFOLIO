@@ -1,0 +1,115 @@
+.section_tree{
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background-color: #3F46BF;
+}
+.contain-projetos{
+    height: 100%;
+    padding: 1rem;
+    overflow: auto;
+    display: flex;
+}
+.contain-projetos::-webkit-scrollbar{
+    height: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.contain-projetos::-webkit-scrollbar-thumb{
+    background-color: #16048C;
+    border-radius: 20px;
+    height: 5px;
+}
+.contain-projetos::-webkit-scrollbar{
+    width: 0;
+}
+.card-projetos{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 30px;
+}
+.card-projetos li{
+    width: 230px;
+    height: 330px;
+    position: relative;
+}
+.card-projetos li img{
+    width: 100%;
+}
+.card-projetos h1{
+    z-index: 1;
+    color: #f2f2f2;
+}
+.card-projetos p{
+    z-index: 1;
+    color: #f2f2f2;
+    font-size: 13px;
+    font-weight: 200;
+}
+.card-projetos button a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.card-projetos button{
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(
+        to left,
+        #16048C,
+        #16048C
+        );
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.card-projetos button:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+.title-projetos{
+    text-align: center;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+.galeria{ 
+    display: flex;
+    overflow: auto;
+    z-index: 0;
+}
+.galeria::-webkit-scrollbar{
+    height: 6px;
+    background-color: transparent;
+}
+.galeria::-webkit-scrollbar-thumb{
+    background-color:#f2f2f2;
+    border-radius: 30px;
+}
+.galeria-img,.galeria-img video{
+    display: flex;
+    width: 100px;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.galeria-img img, .galeria-img video{
+    width: 100%;
+}
+.galeria-img img:hover,.galeria-img video:hover{
+  transform: scale(1.1);
+  bottom: 0;
+  position: absolute;
+  z-index: 10;
+  transition: all 300ms ease;
+}

@@ -2,10 +2,11 @@
 const btnMenu = document.querySelector('#btn_menu')
 function toggleMenu(){
     const nav = document.querySelector('header')
+    const galeriaimg = document.querySelector('.galeria-img')
     nav.classList.toggle('active')
+    galeriaimg.classList.toggle('active')
 }
 btnMenu.addEventListener('click', toggleMenu)
-
 
 //Variareis dos cards das skils
 let skils_html = document.querySelector('.skils_html')
@@ -46,22 +47,6 @@ btn_mysql.addEventListener('click',()=>{
     skils_js.style.display = 'none'
     skils_mysql.style.display = 'block'
 })
-
-//const observer = new IntersectionObserver(entries =>{
-//    entries[0].target.classList.add('section_tow-inite-hiden')
-
-//    Array.from(entries).forEach(entry =>{
-//        if(entry.intersectionRatio >= 1){
-//            entry.target.classList.add('section_tow-inite-hiden')
-//        }
-//  })
-//}, {
-//   threshold:[0, .5, 1]
-//})
-//Array.from(document.querySelectorAll('.inite-hiden')).forEach(elemnt =>{
-//   observer.observe(elemnt)
-//})
-
 const menuItem = document.querySelectorAll('.menu_select a')
 
 menuItem.forEach(item =>{

@@ -1,6 +1,9 @@
 @media screen and (max-width:1030px){
     main .section_tow{
         flex-direction: column;
+         height: inherit;
+        /*opacity: 0;*/
+        
     }
     
     main .container_sobre_mim{
