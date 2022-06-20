@@ -7,3 +7,6 @@
 body{
     background-color: #1d1d1d;
 }
+body::-webkit-scrollbar{
+    width: 0;
+}
