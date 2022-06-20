@@ -83,6 +83,7 @@
 .table_icons i p a{
     text-decoration: none;
     color: inherit;
+    z-index: 5;
 }
 .table_icons i span{
     content: '';
@@ -90,7 +91,7 @@
     height: 10px;
     transform: rotate(135deg);
     position: absolute;
-    bottom: 20px;
+    bottom: 19px;
     z-index: 0;
     background-color: #FAF2FD;
 }
