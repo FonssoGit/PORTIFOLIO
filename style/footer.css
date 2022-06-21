@@ -1,3 +1,18 @@
 footer{
-    height: 150px;
+    height: 70px;
+    background-color: #1D1D1D;
+}
+footer a{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+    background-color: #1D1D1D;
+}
+footer a:hover{
+    color: #f2f2f2;
 }

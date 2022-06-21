@@ -39,6 +39,7 @@ nav{
 .menu_select li:hover a{
     margin-left: 10px;
     transition: all 300ms ease-out;
+    color:#f2f2f2;
 }
 .menu_select li a{
     text-decoration: none;

@@ -87,11 +87,11 @@
 }
 .table_icons i span{
     content: '';
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     transform: rotate(135deg);
     position: absolute;
-    bottom: 19px;
+    bottom: 17px;
     z-index: 0;
     background-color: #FAF2FD;
 }
